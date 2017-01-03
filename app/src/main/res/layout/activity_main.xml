@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="demo.yang.com.shopinfo.UI.MainActivity">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:id="@+id/iv_ShopImg"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp">
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_ShopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+
+            android:id="@+id/ll_ShopAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/location"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:autoLink="map"
+                android:layout_margin="5dp"
+                android:id="@+id/tv_ShopAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/ll_ShopEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/arroba"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:autoLink="email"
+                android:layout_margin="5dp"
+                android:id="@+id/tv_ShopEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll_ShopPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/phone"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:autoLink="phone"
+                android:layout_margin="5dp"
+                android:id="@+id/tv_ShopPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll_ShopNet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/network"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:autoLink="web"
+                android:layout_margin="5dp"
+                android:id="@+id/tv_ShopNet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll_ShopTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/alarm"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_margin="5dp"
+                android:id="@+id/tv_ShopTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
